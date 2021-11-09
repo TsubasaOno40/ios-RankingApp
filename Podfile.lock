@@ -1,0 +1,36 @@
+PODS:
+  - KRActivityIndicatorView (3.0.5)
+  - KRProgressHUD (3.4.5):
+    - KRActivityIndicatorView (= 3.0.5)
+  - NCMB (3.0.4)
+  - NYXImagesKit (2.3)
+
+DEPENDENCIES:
+  - KRProgressHUD
+  - NCMB (from `https://github.com/NIFCLOUD-mbaas/ncmb_ios.git`)
+  - NYXImagesKit
+
+SPEC REPOS:
+  trunk:
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - NYXImagesKit
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/NIFCLOUD-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: a609e7b923d5e3a934836adea15757b8901f7b1e
+    :git: https://github.com/NIFCLOUD-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  KRActivityIndicatorView: 912bc0413d98340f384b12a4e1e6aa8f42fb377d
+  KRProgressHUD: df4cdc3a1baf708d4276a089ee34d133fa9a6f3e
+  NCMB: db326e289b0abd5ca220b6781bda873a7d3807ea
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+
+PODFILE CHECKSUM: 25e918fa8c76c496b9e95a7238c161d5a9e55444
+
+COCOAPODS: 1.8.4
